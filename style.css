@@ -32,6 +32,9 @@ body {
     flex-direction: column;
     gap: 2.5rem;
     height: 14rem;
+    border: 1px solid ;
+    margin-left: 8px;
+    margin-right: 8px;
     
 }
 
