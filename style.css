@@ -1,44 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    
 }
 
 body {
     background-color: #03ff81;
+    
 }
 
 .container {
-    border: 1px solid blue;
+    border: 1px solid rgb(178, 178, 216);
     width: 100%;
     max-width: 788px;
     text-align: center;
     background-color: rgb(245, 245, 245);
     height: 17rem;
     margin: 13rem auto 0px;
-    border: 1px solid ;
+    border-radius: 10px;
     
 }
 
 .agrupamento {
-    margin-top: 4rem;
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    border: 1px solid;
+   
     height: 13rem;
     
 }
 
 h1 {
-    border: 1px solid ;
+    
     padding: 3px;
     color: 	#141616;
     
 }
 
 h2 {
-    border: 1px solid ;
+    
     padding: 3px;
     color: 	#303d3d;
 
@@ -46,7 +50,7 @@ h2 {
 }
 
 button {
-    border: 1px solid ;
+    
     padding: 10px;
     font-size: 1.2rem;
     font-weight: bolder;
@@ -54,6 +58,4 @@ button {
     color: white;
     width: 18rem;
     margin: 0 auto 0;
-    
-    
 }
