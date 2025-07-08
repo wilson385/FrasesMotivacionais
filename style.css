@@ -9,6 +9,8 @@
 
 body {
     background-color: #2bf18e;
+    /* distanciamento, impedindo que o container encoste na lateral */
+    padding: 1rem;
     
 }
 
@@ -29,7 +31,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
-   
     height: 14rem;
     
 }
