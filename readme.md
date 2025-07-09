@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Desenvolvi esse projeto sozinho, do zero. Foi desafiador, mas consegui concluir.
+Desenvolvi esse projeto sozinho, do zero. Foi um desafio especialmente na parte de responsividade, mas mesmo diante das dificuldades, consegui concluir.
 
 
 ## 🔖 Licença
