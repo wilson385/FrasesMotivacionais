@@ -12,20 +12,29 @@ body {
     /* distanciamento, impedindo que o container encoste na lateral */
     padding: 1rem;
     
+    
 }
 
 .container {
     border: 1px solid rgb(178, 178, 216);
     width: 100%;
     max-width: 588px;
-    text-align: center;
     background-color: rgb(245, 245, 245);
-    height: 20rem;
     margin: 13rem auto 0px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+    text-align: center;
+    
+    /* impede que o conteudo saia do conteiner */
+    overflow: hidden;
+    /* Ajuste automaticamente a altura 
+    do container com base no conteúdo que
+     estiver dentro dele, se o conteudo cresce a altura crece
+     */
+    height: auto;
+    /* espaçamento do conteudo e a borda do container */
     padding: 1rem;
     
 }
@@ -37,12 +46,13 @@ h1 {
     padding: 3px;
     color: 	#141616;
     
+    
 }
 
 h2 {
     
     padding: 3px;
-    color: 	#4f5555;
+    
 
     
 }
@@ -54,7 +64,11 @@ button {
     font-weight: bolder;
     background-color: #09944e;
     color: white;
-    width: 18rem;
+    width: 100%;
+    max-width: 288px;
     margin: 0 auto 0;
     border-radius: 8px;
+    
+    
+    
 }
