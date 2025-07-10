@@ -10,7 +10,7 @@
 body {
     background: url(assets/verde.jpg) no-repeat top center/cover;
     /* distanciamento, impedindo que o container encoste na lateral */
-    padding: 1rem;
+    padding: 2rem;
     height: 100vh;
     
     
@@ -26,6 +26,7 @@ body {
     flex-direction: column;
     gap: 1.8rem;
     text-align: center;
+    
     
     /* impede que o conteudo saia do conteiner */
     overflow: hidden;
