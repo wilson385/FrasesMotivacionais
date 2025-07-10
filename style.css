@@ -17,12 +17,11 @@ body {
 }
 
 .container {
-    border: 1px solid rgb(178, 178, 216);
     width: 100%;
     max-width: 588px;
     background-color: rgb(245, 245, 245);
-     margin: 13rem auto 0px; 
-    border-radius: 10px;
+     margin: 15rem auto 0px; 
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     gap: 1.8rem;
