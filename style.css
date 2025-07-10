@@ -3,9 +3,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-    
-    
+    font-family: 'Inter', sans-serif;
+  
 }
 
 body {
@@ -26,7 +25,7 @@ body {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 1.8rem;
     text-align: center;
     
     /* impede que o conteudo saia do conteiner */
@@ -44,15 +43,15 @@ body {
 
 
 h1 {
-    
+    font-size: 1.875rem;
     padding: 3px;
-    color: 	#141616;
+    color: 	#1F2937;
     
     
 }
 
 h2 {
-    
+    font-size: 1.25rem;
     padding: 3px;
     color: #454949;
     
@@ -63,14 +62,13 @@ h2 {
 button {
     
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 19px;
     font-weight: bolder;
-    background-color: #09944e;
+    background-color: #059669;
     color: white;
-    width: 100%;
-    max-width: 288px;
+    width: 65%;
     margin: 0 auto 0;
-    border-radius: 8px;
+    border-radius: 9999px;
     
     
     
