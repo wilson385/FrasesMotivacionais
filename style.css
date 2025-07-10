@@ -5,12 +5,14 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     
+    
 }
 
 body {
-    background-color: #2bf18e;
+    background: url(assets/verde.jpg) no-repeat top center/cover;
     /* distanciamento, impedindo que o container encoste na lateral */
     padding: 1rem;
+    height: 100vh;
     
     
 }
