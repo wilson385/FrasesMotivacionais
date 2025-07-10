@@ -68,6 +68,8 @@ button {
     width: 65%;
     margin: 0 auto 0;
     border-radius: 9999px;
+    border: none;
+  outline: none; /* remove contorno ao focar (opcional) */
     
     
     
