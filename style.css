@@ -79,7 +79,11 @@ button {
 @media (max-width: 800px) {
     .container {
         margin-top: 10rem;
-        margin-bottom: 4rem;
+        
+    }
+
+    body {
+        padding: 3rem;
     }
 
 }
