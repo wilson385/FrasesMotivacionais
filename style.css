@@ -78,7 +78,7 @@ button {
 /* celulares e tablets deixando o conteúdo ajustado ao meio */
 @media (max-width: 800px) {
     .container {
-        margin-top: 7rem;
+        margin-top: 10rem;
         
     }
 
