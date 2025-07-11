@@ -75,11 +75,21 @@ button {
     
     
 }
-/* celulares e tablets deixando o conteúdo ajustado ao meio */
-@media (max-width: 800px) {
+/* Estilos para celulares em pé */
+@media(max-width: 430px) {
     .container {
         margin-top: 10rem;
         
     }
+
+}
+/* Estilos para celulares deitados */
+@media (min-width:431px) and (max-width:932px) {
+
+    .container {
+        margin-top: 7rem;
+
+    }
+    
 
 }
