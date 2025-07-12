@@ -50,13 +50,18 @@ h1 {
     
 }
 
-h2 {
+.container h2 {
     font-size: 1.25rem;
     padding: 3px;
     color: #454949;
+    transition: all 0.4s;
     
 
     
+}
+
+.container h2:hover {
+    color: rgb(0, 140, 255);
 }
 
 button {
