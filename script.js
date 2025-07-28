@@ -51,18 +51,25 @@
   "Tenha fé no processo, e força para continuar."
 ];
  
-
-
     function frasesAleatoria() {
       const mensagem = document.getElementById("mensagem");
+      
       
     // Math.random() gera um número decimal aleatório entre 0 e 1 (ex: 0.732)
     // Multiplica pelo tamanho do array (frases.length), por exemplo: 0.732 * 5 = 3.66
     // Math.floor() arredonda para baixo, virando 3.
       const indiceAleatorio = Math.floor(Math.random() * frases.length);
 
+      // pegando o id ul
+      const ul = document.getElementById("frasesMotivacionais");
+      // criando elemento li
+      const li = document.createElement("li");
+      // adicionando li dentro do ul pai
+      ul.appendChild(li);
+      // exibindo as frases dentro do li
+        li.textContent = frases[indiceAleatorio];
       // Exibe a frase sorteada
-      mensagem.textContent = frases[indiceAleatorio];
+      // mensagem.textContent = frases[indiceAleatorio];
     }
 
 
