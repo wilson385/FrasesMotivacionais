@@ -11,6 +11,9 @@ body {
     background: url(assets/verde.jpg) no-repeat top center/cover;
     /* distanciamento, impedindo que o container encoste na lateral */
     padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
     
     
@@ -20,7 +23,7 @@ body {
     width: 100%;
     max-width: 588px;
     background-color: rgb(245, 245, 245);
-     margin: 15rem auto 0px; 
+     /* margin: 15rem auto 0px;  */
     border-radius: 1rem;
     display: flex;
     flex-direction: column;

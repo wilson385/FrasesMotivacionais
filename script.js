@@ -68,6 +68,7 @@
       ul.appendChild(li);
       // exibindo as frases dentro do li
         li.textContent = frases[indiceAleatorio];
+        
       // Exibe a frase sorteada
       // mensagem.textContent = frases[indiceAleatorio];
     }
