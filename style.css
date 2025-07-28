@@ -92,9 +92,10 @@ ul {
 ul li {
     list-style: none;
     padding: 15px;
-    background-color: #e5ff00d5;
+    background-color: #3d5c1a86;
     border-radius: 8px;
     font-weight: bolder;
+    color: #000000;
 }
 
 
