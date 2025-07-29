@@ -1,4 +1,6 @@
-  const frases = [
+ const nome = prompt("Qual eu nome ?")
+ 
+ const frases = [
   "Acredite em você e tudo será possível.",
   "Cada passo te aproxima do seu objetivo.",
   "Você é mais forte do que imagina.",
@@ -53,24 +55,36 @@
  
     function frasesAleatoria() {
       const mensagem = document.getElementById("mensagem");
+      const mensagemSucesso = "Mensagem exibida com sucesso"
+      const mensagemExibida = document.getElementById("mensagemSucesso")
+      mensagemExibida.style.color = "#28A745"
+      mensagemExibida.textContent = mensagemSucesso + " " + nome + "!"
+      renderizarTarefas()
+        
+      // Exibe a frase sorteada
+      // mensagem.textContent = frases[indiceAleatorio];
+    }
+
+    function renderizarTarefas () {
+
       
-      
-    // Math.random() gera um número decimal aleatório entre 0 e 1 (ex: 0.732)
+
+          // Math.random() gera um número decimal aleatório entre 0 e 1 (ex: 0.732)
     // Multiplica pelo tamanho do array (frases.length), por exemplo: 0.732 * 5 = 3.66
     // Math.floor() arredonda para baixo, virando 3.
       const indiceAleatorio = Math.floor(Math.random() * frases.length);
 
       // pegando o id ul
       const ul = document.getElementById("frasesMotivacionais");
+
       // criando elemento li
       const li = document.createElement("li");
+
       // adicionando li dentro do ul pai
       ul.appendChild(li);
+      
       // exibindo as frases dentro do li
         li.textContent = frases[indiceAleatorio];
-        
-      // Exibe a frase sorteada
-      // mensagem.textContent = frases[indiceAleatorio];
     }
 
 
