@@ -1,6 +1,4 @@
- const nome = prompt("Qual eu nome ?")
- 
- const frases = [
+  const frases = [
   "Acredite em você e tudo será possível.",
   "Cada passo te aproxima do seu objetivo.",
   "Você é mais forte do que imagina.",
@@ -54,39 +52,57 @@
 ];
  
     function frasesAleatoria() {
-      const mensagem = document.getElementById("mensagem");
-      const mensagemSucesso = "Mensagem exibida com sucesso"
-      const mensagemExibida = document.getElementById("mensagemSucesso")
-      mensagemExibida.style.color = "#28A745"
-      mensagemExibida.textContent = mensagemSucesso + " " + nome + "!"
-      renderizarTarefas()
+      const mensagemFixa = document.getElementById("mensagemFixa");
+      const mensagemSucesso = "Mensagem exibida com sucesso!"
+      const mensagem = document.getElementById("mensagem")
+      // pegando o id ul
+      const ul = document.getElementById("frasesMotivacionais");
+
+       let number = 4
+      //   children serve para contar quantos elementos HTML
+      //  filhos diretos existem dentro de um elemento pai
+        if (ul.children.length >= number) {
+
+          // innerhtml limpar o campo li que esta no ul
+          // ele limpa todo elemento filho que esta
+          // no pai
+          ul.innerHTML = ""
+          mensagem.style.color = "#8B0000"
+          mensagem.textContent = "Lista limpa!"
+          return;
+          
+          
+        }
+       
+
         
       // Exibe a frase sorteada
       // mensagem.textContent = frases[indiceAleatorio];
-    }
 
-    function renderizarTarefas () {
-
-      
-
-          // Math.random() gera um número decimal aleatório entre 0 e 1 (ex: 0.732)
+           // Math.random() gera um número decimal aleatório entre 0 e 1 (ex: 0.732)
     // Multiplica pelo tamanho do array (frases.length), por exemplo: 0.732 * 5 = 3.66
     // Math.floor() arredonda para baixo, virando 3.
       const indiceAleatorio = Math.floor(Math.random() * frases.length);
 
-      // pegando o id ul
-      const ul = document.getElementById("frasesMotivacionais");
+      
 
       // criando elemento li
       const li = document.createElement("li");
+      
 
       // adicionando li dentro do ul pai
       ul.appendChild(li);
-      
+      mensagem.style.color = "#155333ff"
+      mensagem.textContent = mensagemSucesso
       // exibindo as frases dentro do li
         li.textContent = frases[indiceAleatorio];
+
+       
+
+
     }
 
+    
 
     
 
